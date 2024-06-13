@@ -56,7 +56,7 @@ sequenceDiagram
 sequenceDiagram
 Alice -> Bob: Hello Bob, how are you?
 Note right of Bob: Bob thinks
-Bob -- Alice: I am good thanks !
+Bob -->> Alice: I am good thanks !
 Charly -> Bob: Hello
 Note right of Charly: Charly thinks
 ```
