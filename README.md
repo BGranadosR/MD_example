@@ -41,7 +41,8 @@ endmodule
 ## Block Diagram
 
 ```mermaid
-Alice --Señal--> Bob;
+graph LR;
+Alice --> Bob;
 ```
 
 ## Here is a simple flow chart:
