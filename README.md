@@ -41,7 +41,7 @@ endmodule
 ## Block Diagram
 
 ```mermaid
-Alice --> Bob[Hola];
+Alice --Señal--> Bob;
 ```
 
 ## Here is a simple flow chart:
