@@ -54,10 +54,10 @@ sequenceDiagram
 
 ```mermaid
 sequenceDiagram
-Alice -> Bob: Hello Bob, how are you?
+Alice ->> Bob: Hello Bob, how are you?
 Note right of Bob: Bob thinks
 Bob -->> Alice: I am good thanks !
-Charly -> Bob: Hello
+Charly ->> Bob: Hello
 Note right of Charly: Charly thinks
 ```
 
