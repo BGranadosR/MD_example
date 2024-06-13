@@ -51,3 +51,12 @@ Charly -> Bob: Hello
 Note right of Charly: Charly thinks
 ```
 
+## Here is a simple flow chart:
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
