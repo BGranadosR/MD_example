@@ -41,21 +41,13 @@ endmodule
 ## Block Diagram
 
 ```mermaid
-Alice --> Bob: Hello Bob, how are you?;
-```
-```sequence
-Note right of Bob: Bob thinks
-
-Bob -- Alice: I am good thanks !
-
-Charly -> Bob: Hello
-Note right of Charly: Charly thinks
+Alice --> Bob[Hola];
 ```
 
 ## Here is a simple flow chart:
 
 ```mermaid
-graph TD;
+graph LR;
     A-->B;
     A-->C;
     B-->D;
